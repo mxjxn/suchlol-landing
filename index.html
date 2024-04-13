@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Such.lol - contests on Degen L3, coming soon!</title>
+    <style>
+      @font-face {
+        font-family: "ComicNeue-Regular";
+        src: url("/fonts/ComicNeue-Regular.ttf") format("truetype");
+        font-weight: normal;
+        font-style: normal;
+      }
+      body {
+        background: #47233c;
+        font-family: "ComicNeue-Regular", sans-serif;
+        color: #fff;
+        margin: 0;
+        padding: 0;
+      }
+			a, a:visited {
+				/* underline text should be dotted */
+				color: #fff;
+			}
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+				div {
+					padding-top: 1rem;
+				}
+      }
+      .image-box {
+        width: 33%;
+        text-align: center;
+        img {
+          max-width: 100%;
+        }
+      }
+      .text {
+        font-size: 1.5rem;
+      }
+      @media (max-width: 768px) {
+        .image-box {
+          width: 100%; /* Makes the image-box take the full width */
+          img {
+            width: 100%; /* Ensures the image itself also takes up 100% width */
+          }
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="image-box">
+        <img src="/suchlol-logo.png" alt="Such.lol" />
+      </div>
+      <div class="text">
+				Contests on Degen L3, built on <a href="https://jokerace.xyz">Jokerace</a>, coming soon!
+      </div>
+      <div class="text">
+        <a href="https://github.com/mxjxn/such.lol">
+          <img src="/github.svg" alt="Github" />
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
